@@ -24,7 +24,7 @@ public class SetCommand extends ImportExport {
     @Override
     public URL getUrl() throws MalformedURLException, UnsupportedEncodingException {
 
-        return new URL("http://194.58.111.229:801/json/get_phone_dispatcher.aspx?db_id=7");
+        return new URL("http://37.192.176.97:8081/json/get_phone_dispatcher.aspx?db_id=7");
     }
 
     @Override
